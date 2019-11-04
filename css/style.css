@@ -222,4 +222,22 @@ header {
 .default .service {
   flex: 1;
   text-align: center;
+  border-right: 1px solid #333;
+  padding: 15px;
+}
+
+.default .service:first-child {
+  border-left: 1px solid #333;
+}
+
+.default .service h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.default .service p {
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
 }
