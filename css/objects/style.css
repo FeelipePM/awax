@@ -6,8 +6,8 @@ body {
 
 header {
   height: 100px;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--color-dark);
+  color: var(--color-white);
 }
 
 .container-header {
@@ -43,7 +43,7 @@ header {
 }
 
 .menu li a {
-  color: #fff;
+  color: var(--color-white);
   text-transform: uppercase;
   font-weight: 600;
   text-decoration: none;
@@ -52,19 +52,19 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid var(--color-dark);
 }
 
 .menu li a:hover,
 .menu .-active a {
-  border-bottom: 5px solid #b28756;
-  color: #ccc;
+  border-bottom: 5px solid var(--color-primary);
+  color: var(--color-first-gray);
 }
 
 .button {
   display: inline-block;
-  background-color: #b28756;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
@@ -76,8 +76,8 @@ header {
 
 .banner {
   height: calc(100vh - 100px);
-  background-color: #333;
-  background-image: url("../img/complementos/background.jpg");
+  background-color: var(--color-third-gray);
+  background-image: url("../../img/complementos/background.jpg");
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
@@ -92,7 +92,7 @@ header {
   width: 100vw;
   height: 100%;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--color-dark-opacity);
 }
 
 .banner .slidearea {
@@ -101,7 +101,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 100%;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .banner h1 {
@@ -112,7 +112,7 @@ header {
 }
 
 .banner h1 span {
-  color: #b28756;
+  color: var(--color-primary);
 }
 
 .banner h2 {
@@ -133,7 +133,7 @@ header {
 .banner .pointer {
   width: 15px;
   height: 15px;
-  border: 2px solid #b28756;
+  border: 2px solid var(--color-primary);
   border-radius: 8px;
   margin-left: 5px;
   margin-right: 5px;
@@ -141,7 +141,7 @@ header {
 }
 
 .banner .pointer.-active {
-  background-color: #b28756;
+  background-color: var(--color-primary);
 }
 
 .default {
@@ -162,7 +162,7 @@ header {
 
 .default .description {
   font-size: 12px;
-  color: #ccc;
+  color: var(--color-first-gray);
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -173,21 +173,21 @@ header {
 }
 
 .default.-light {
-  background-color: #f7f7f7;
+  background-color: var(--color-light);
 }
 
 .default.-light .title,
 .default.-light .content {
-  color: #000;
+  color: var(--color-dark);
 }
 
 .default.-dark {
-  background-color: #000;
+  background-color: var(--color-dark);
 }
 
 .default.-dark .title,
 .default.-dark .content {
-  color: #fff;
+  color: var(--color-white);
 }
 
 /*About us*/
@@ -212,7 +212,7 @@ header {
 
 .default .about-us.-right img {
   width: 480px;
-  box-shadow: 0px 5px 10px #333;
+  box-shadow: 0px 5px 10px var(--color-third-gray);
 }
 
 .default .services {
@@ -222,12 +222,12 @@ header {
 .default .service {
   flex: 1;
   text-align: center;
-  border-right: 1px solid #333;
+  border-right: 1px solid var(--color-third-gray);
   padding: 15px;
 }
 
 .default .service:first-child {
-  border-left: 1px solid #333;
+  border-left: 1px solid var(--color-third-gray);
 }
 
 .default .service h4 {
@@ -238,6 +238,48 @@ header {
 
 .default .service p {
   font-size: 13px;
-  color: #999;
+  color: var(--color-second-gray);
   margin-top: 10px;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects .filter {
+  border: 1px solid var(--color-first-gray);
+  background-color: var(--color-light-gray);
+  border-radius: 30px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.projects .filter ul,
+.projects .filter li {
+  list-style: none;
+  padding: 0;
+}
+
+.projects .filter li {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-left: 1px solid var(--color-first-gray);
+  color: var(--color-third-gray);
+  border-bottom: 3px solid var(--color-light-gray);
+  cursor: pointer;
+}
+
+.projects .filter li:hover,
+.projects .filter li.-active {
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.projects .filter li:first-child {
+  border-left: 0;
 }
