@@ -338,3 +338,108 @@ header {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+/*Our Team*/
+
+.bg-team {
+  background-image: url("../../img/complementos/bg-team.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.bg-team .team-content {
+  background-color: var(--color-dark-opacity);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.team {
+  overflow: hidden;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.team .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.team .slide {
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+  background-color: var(--color-white);
+  margin-right: 20px;
+}
+
+.team .slidearea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--color-dark);
+  padding: 30px;
+}
+
+.team-content .pointers {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.team-content .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.team-content .pointer.-active {
+  background-color: var(--color-primary);
+}
+
+.team .avatar {
+  width: 150px;
+  height: auto;
+}
+
+.team .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.team .role {
+  color: var(--color-second-gray);
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.team .social-media {
+  display: flex;
+  margin-top: 20px;
+}
+
+.team .social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-first-gray);
+  border-radius: 13px;
+  margin-right: 10px;
+}
+
+.team .social-media a:hover {
+  background-color: var(--color-primary);
+}
