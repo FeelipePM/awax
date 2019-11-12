@@ -1,0 +1,132 @@
+.button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: var(--color-button-opacity);
+}
+
+.banner {
+  height: calc(100vh - 100px);
+  background-color: var(--color-third-gray);
+  background-image: url("../../img/complementos/background.jpg");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.banner .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.banner .slide {
+  width: 100vw;
+  height: 100%;
+  display: inline-block;
+  background-color: var(--color-dark-opacity);
+}
+
+.banner .slidearea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--color-white);
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+
+.banner h1 span {
+  color: var(--color-primary);
+}
+
+.banner h2 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.banner .pointers {
+  width: 100vw;
+  height: 20px;
+  position: absolute;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.banner .pointer.-active {
+  background-color: var(--color-primary);
+}
+
+.default {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.default .title,
+.default .description {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.default .title {
+  font-size: 20px;
+}
+
+.default .description {
+  font-size: 12px;
+  color: var(--color-first-gray);
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.default .content {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.default.-light {
+  background-color: var(--color-light);
+}
+
+.default.-light .title,
+.default.-light .content {
+  color: var(--color-dark);
+}
+
+.default.-dark {
+  background-color: var(--color-dark);
+}
+
+.default.-dark .title,
+.default.-dark .content {
+  color: var(--color-white);
+}

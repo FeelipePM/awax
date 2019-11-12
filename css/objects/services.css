@@ -1,0 +1,26 @@
+.default .services {
+  display: flex;
+}
+
+.default .service {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid var(--color-third-gray);
+  padding: 15px;
+}
+
+.default .service:first-child {
+  border-left: 1px solid var(--color-third-gray);
+}
+
+.default .service h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.default .service p {
+  font-size: 13px;
+  color: var(--color-second-gray);
+  margin-top: 10px;
+}

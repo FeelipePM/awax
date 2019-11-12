@@ -1,0 +1,22 @@
+.default .about-us {
+  display: flex;
+}
+
+.default .about-us.-left {
+  flex: 1;
+}
+
+.default .about-us.-left p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.default .about-us.-right {
+  width: 480px;
+  text-align: center;
+}
+
+.default .about-us.-right img {
+  width: 480px;
+  box-shadow: 0px 5px 10px var(--color-third-gray);
+}
