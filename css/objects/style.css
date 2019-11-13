@@ -4,7 +4,7 @@
   background-image: url("../../img/complementos/bg-team.jpg");
   background-size: cover;
   background-position: center;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .bg-team .team-content {
