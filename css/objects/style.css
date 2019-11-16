@@ -63,3 +63,42 @@
 .plan .button.-active {
   background-color: var(--color-primary);
 }
+
+/* Premium Plan*/
+
+.premium {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.premium .premium-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  width: 400px;
+}
+
+.content-box img {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.content-box dt {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content-box dd {
+  font-size: 12px;
+  color: var(--color-first-gray);
+  margin-left: 58px;
+  line-height: 20px;
+}
+
+.content-box dd p {
+  text-transform: uppercase;
+}
