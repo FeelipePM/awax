@@ -77,18 +77,32 @@
   align-items: center;
 }
 
+.premium .books {
+  width: 280px;
+}
+
+.default .border {
+  border-bottom: 1px solid var(--color-light-gray);
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+}
+
 .content-box {
   width: 400px;
+  height: 250px;
+  margin-left: 80px;
 }
 
 .content-box img {
+  width: 30px;
   vertical-align: middle;
   margin-right: 20px;
 }
 
 .content-box dt {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
 }
 
@@ -96,6 +110,7 @@
   font-size: 12px;
   color: var(--color-first-gray);
   margin-left: 58px;
+  margin-bottom: 20px;
   line-height: 20px;
 }
 
