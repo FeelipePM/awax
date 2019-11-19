@@ -144,3 +144,61 @@
 .default .pointer.-active {
   background-color: var(--color-primary);
 }
+
+/* Some Facts*/
+
+.some-facts {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.some-facts dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 176px;
+  height: 140px;
+  color: var(--color-white);
+  text-align: center;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.some-facts dt {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.some-facts span {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.some-facts dd {
+  color: var(--color-second-gray);
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: auto;
+}
+
+.some-facts span:after {
+  content: "";
+  width: 20px;
+  text-align: center;
+  display: block;
+  border-bottom: 3px solid var(--color-second-gray);
+  margin: auto;
+  margin-top: 5px;
+}
