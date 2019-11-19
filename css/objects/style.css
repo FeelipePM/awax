@@ -66,9 +66,14 @@
 
 /* Premium Plan*/
 
+.default.-premium-plan {
+  text-align: center;
+}
+
 .premium {
   max-width: 1140px;
   margin: auto;
+  text-align: left;
 }
 
 .premium .premium-plan {
@@ -116,4 +121,26 @@
 
 .content-box dd p {
   text-transform: uppercase;
+}
+
+.default .pointers {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.default .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.default .pointer.-active {
+  background-color: var(--color-primary);
 }
