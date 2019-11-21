@@ -6,6 +6,11 @@
   --color-first-gray: #ccc;
   --color-second-gray: #999;
   --color-third-gray: #333;
+  --color-light-blue: #66ccff;
+  --color-dark-blue: #006699;
+  --color-dark-moderate-blue: #336699;
+  --color-strong-red: #cc3333;
+  --color-vivid-red: #ff3333;
   --color-dark: #000;
   --color-dark-opacity: rgba(0, 0, 0, 0.8);
   --color-button-opacity: #b28756e7;
