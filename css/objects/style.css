@@ -250,6 +250,7 @@
 
 .container .social-media h3 {
   margin-left: 10px;
+  font-weight: 600;
   color: var(--color-first-gray);
 }
 
@@ -257,4 +258,5 @@
   margin-left: 5px;
   margin-right: 20px;
   color: var(--color-first-gray);
+  font-weight: 600;
 }
