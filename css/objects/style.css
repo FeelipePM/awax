@@ -275,10 +275,12 @@
 }
 
 .container-form form {
-  width: 500px;
+  width: 55%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10px;
+  box-sizing: content-box;
 }
 
 .container-form input {
