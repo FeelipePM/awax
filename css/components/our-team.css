@@ -31,35 +31,10 @@
 }
 
 .team .slidearea {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   color: var(--color-dark);
   padding: 30px;
-}
-
-.team-content .pointers {
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.team-content .pointer {
-  width: 15px;
-  height: 15px;
-  border: 2px solid var(--color-primary);
-  border-radius: 8px;
-  margin-left: 5px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-
-.team-content .pointer.-active {
-  background-color: var(--color-primary);
 }
 
 .team .avatar {
