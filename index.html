@@ -9,19 +9,21 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/elements/normalize.css">
   <link rel="stylesheet" href="css/settings/colors.css">
-  <link rel="stylesheet" href="css/objects/contact-us.css">
-  <link rel="stylesheet" href="css/objects/social-media.css">
-  <link rel="stylesheet" href="css/objects/some-facts.css">
-  <link rel="stylesheet" href="css/objects/premium-plan.css">
-  <link rel="stylesheet" href="css/objects/price.css">
-  <link rel="stylesheet" href="css/objects/partners.css">
-  <link rel="stylesheet" href="css/objects/clients.css">
-  <link rel="stylesheet" href="css/objects/our-team.css">
-  <link rel="stylesheet" href="css/objects/projects.css">
-  <link rel="stylesheet" href="css/objects/services.css">
-  <link rel="stylesheet" href="css/objects/about-us.css">
-  <link rel="stylesheet" href="css/objects/banner.css">
-  <link rel="stylesheet" href="css/objects/header.css">
+  <link rel="stylesheet" href="css/components/map.css">
+  <link rel="stylesheet" href="css/components/contact-us.css">
+  <link rel="stylesheet" href="css/components/social-media.css">
+  <link rel="stylesheet" href="css/components/some-facts.css">
+  <link rel="stylesheet" href="css/components/premium-plan.css">
+  <link rel="stylesheet" href="css/components/price.css">
+  <link rel="stylesheet" href="css/components/partners.css">
+  <link rel="stylesheet" href="css/components/clients.css">
+  <link rel="stylesheet" href="css/components/our-team.css">
+  <link rel="stylesheet" href="css/components/projects.css">
+  <link rel="stylesheet" href="css/components/services.css">
+  <link rel="stylesheet" href="css/components/about-us.css">
+  <link rel="stylesheet" href="css/components/banner.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/objects/base.css">
 
   <title>Awax</title>
 </head>
@@ -54,7 +56,7 @@
     <section class="banner">
       <div class="sliders">
         <div class="slide">
-          <div class="slidearea">
+          <div class="slidearea -flex">
             <h1>Design is about
               </br> <span>Communication</span>
             </h1>
@@ -81,19 +83,19 @@
           </div>
         </div>
       </div>
-      <div class="pointers">
+      <div class="pointers -flex">
         <div class="pointer"></div>
         <div class="pointer -active"></div>
         <div class="pointer"></div>
       </div>
     </section>
 
-    <section class="default -light">
-      <h2 class="title">About us</h2>
-      <h3 class="description">Who we are?</h3>
-      <div class="content">
-        <div class="about-us">
-          <div class="about-us -left">
+    <div class="default -light">
+      <section class="about-us -container">
+        <h2 class="title">About us</h2>
+        <h3 class="description">Who we are?</h3>
+        <div class="content">
+          <div class="text -left">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus elit a dui convallis iaculis
               ut
               sit amet enim. Maecenas pretium, justo sed bibendum sollicitudin, tortor urna consectetur ex, et dapibus
@@ -105,12 +107,12 @@
               <a href="" class="button">Learn More</a>
             </p>
           </div>
-          <div class="about-us -right">
+          <div class="image -right">
             <img src="img/complementos/watch-video.png" alt="Watch Vídeo">
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="default -dark">
       <h2 class="title">Services</h2>
@@ -279,7 +281,7 @@
           <div class="team">
             <div class="sliders">
               <div class="slide">
-                <div class="slidearea">
+                <div class="slidearea -flex">
                   <img class="avatar" src="./img/complementos/mulher1.png" alt="Jane Doe">
                   <h2 class="name">Jane Doe</h2>
                   <h3 class="role">Master Mind</h3>
@@ -293,7 +295,7 @@
                 </div>
               </div>
               <div class="slide">
-                <div class="slidearea">
+                <div class="slidearea -flex">
                   <img class="avatar" src="./img/complementos/homem1.png" alt="Jane Doe">
                   <h2 class="name">Mike Shiller</h2>
                   <h3 class="role">Creative head</h3>
@@ -307,7 +309,7 @@
                 </div>
               </div>
               <div class="slide">
-                <div class="slidearea">
+                <div class="slidearea -flex">
                   <img class="avatar" src="./img/complementos/mulher2.png" alt="Anna Johns">
                   <h2 class="name">Anna Johns</h2>
                   <h3 class="role">Technical lead</h3>
@@ -322,7 +324,7 @@
               </div>
             </div>
           </div>
-          <div class="pointers">
+          <div class="pointers -flex">
             <div class="pointer"></div>
             <div class="pointer -active"></div>
             <div class="pointer"></div>
@@ -346,7 +348,7 @@
               est, vel condimentum ligula, consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus
               fermentum, orci leo facilisis purus</p>
           </div>
-          <div class="pointers">
+          <div class="pointers -flex">
             <div class="pointer -active"></div>
             <div class="pointer"></div>
             <div class="pointer"></div>
@@ -356,7 +358,7 @@
     </section>
 
     <section class="partners">
-      <div class="companies">
+      <div class="companies -container">
         <img src="./img/complementos/empresa1.png" alt="empresa1">
         <img src="./img/complementos/empresa2.png" alt="empresa2">
         <img src="./img/complementos/empresa3.png" alt="empresa3">
@@ -469,7 +471,7 @@
         </div>
       </section>
       <div class="border"></div>
-      <div class="pointers">
+      <div class="pointers -flex">
         <div class="pointer -active"></div>
         <div class="pointer"></div>
         <div class="pointer"></div>
@@ -548,6 +550,43 @@
           </form>
         </div>
         <a href="" class="button">Send Message</a>
+      </section>
+    </div>
+
+    <div class="map">
+      <section class="map-area -container">
+        <div class="map-info">
+          <div class="info-item">
+            <div class="img-item">
+              <img src="./img/icones/carta.png" alt="">
+            </div>
+            PO Box 16122 Collin Street West Victoria 8007 Australia
+          </div>
+          <div class="info-item">
+            <div class="img-item">
+              <img src="./img/icones/localizacao.png" alt="">
+            </div>
+            121 King Street, Melbourne Victoria 3000 Australia
+          </div>
+          <div class="info-item">
+            <div class="img-item">
+              <img src="./img/icones/telefone.png" alt="phone">
+            </div>
+            +00 0 1234 5678
+          </div>
+          <div class="info-item">
+            <div class="img-item">
+              <img src="./img/icones/arroba.png" alt="email">
+            </div>
+            bukindesign@gmail.com
+          </div>
+          <div class="info-item">
+            <div class="img-item">
+              <img src="./img/icones/web.png" alt="web">
+            </div>
+            www.envato.com
+          </div>
+        </div>
       </section>
     </div>
   </main>
