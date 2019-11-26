@@ -1,6 +1,7 @@
 :root {
   --color-primary: #b28756;
   --color-white: #fff;
+  --color-white-opacity: rgba(255, 255, 255, 0.2);
   --color-light: #f7f7f7;
   --color-light-gray: #ededed;
   --color-first-gray: #ccc;
