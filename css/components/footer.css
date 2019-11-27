@@ -2,33 +2,33 @@ footer {
   color: var(--color-white);
 }
 
-.footer-area {
+.default .footer-area {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer-area .share {
+.default .footer-area .share {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
 }
 
-.footer-area .social-media {
+.default .footer-area .social-media {
   width: 200px;
   height: 175px;
   margin-top: 0;
 }
 
-.footer-area .social-media p {
+.default .footer-area .social-media p {
   margin-top: 50px;
   text-transform: uppercase;
 }
 
-.footer-area .social-media a {
+.default .footer-area .social-media a {
   background-color: var(--color-white-opacity);
 }
 
-.footer-area .social-media a.-active {
+.default .footer-area .social-media a.-active {
   background-color: var(--color-primary);
 }
 

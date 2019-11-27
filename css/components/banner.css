@@ -1,8 +1,9 @@
 .banner {
   height: calc(100vh - 100px);
   background-color: var(--color-third-gray);
-  background-image: url("../../img/complementos/background.jpg") bottom cover;
-  background-size: auto;
+  background-image: url("../../img/complementos/background.jpg");
+  background-position: center;
+  background-size: cover;
   overflow: hidden;
 }
 

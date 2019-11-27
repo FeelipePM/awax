@@ -209,32 +209,32 @@
     padding-bottom: 280px;
   }
 
-  .container .social-media {
+  .default .social-media {
     flex-wrap: wrap;
   }
 
-  .container .social-media .share {
+  .default .social-media .share {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 20px;
   }
 
-  .container .media {
+  .default .media {
     display: flex;
   }
 
-  .container .media div {
+  .default .media div {
     display: flex;
     flex-direction: column;
     margin-right: 15px;
   }
 
-  .container .media div:last-child {
+  .default .media div:last-child {
     margin-right: 0;
   }
 
-  .container .social-media span {
+  .default .social-media span {
     margin: 0;
     text-align: center;
     margin-top: 5px;
