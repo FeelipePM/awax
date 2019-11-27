@@ -1,9 +1,8 @@
 .banner {
   height: calc(100vh - 100px);
   background-color: var(--color-third-gray);
-  background-image: url("../../img/complementos/background.jpg");
-  background-size: cover;
-  background-position: bottom;
+  background-image: url("../../img/complementos/background.jpg") bottom cover;
+  background-size: auto;
   overflow: hidden;
 }
 
@@ -21,7 +20,7 @@
 
 .banner .slidearea {
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   color: var(--color-white);
 }
 

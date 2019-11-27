@@ -21,10 +21,15 @@ footer {
 
 .footer-area .social-media p {
   margin-top: 50px;
+  text-transform: uppercase;
 }
 
 .footer-area .social-media a {
   background-color: var(--color-white-opacity);
+}
+
+.footer-area .social-media a.-active {
+  background-color: var(--color-primary);
 }
 
 .footer-area .text {

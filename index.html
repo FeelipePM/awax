@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="css/components/about-us.css">
   <link rel="stylesheet" href="css/components/banner.css">
   <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/objects/responsive.css">
   <link rel="stylesheet" href="css/objects/base.css">
 
   <title>Awax</title>
@@ -37,6 +38,7 @@
       </div>
 
       <div class="menu">
+        <img class="responsive-menu" src="./img/icones/menu.png" alt="menu">
         <nav>
           <ul>
             <li class="-active"><a href="">Home</a></li>
@@ -97,16 +99,18 @@
         <h3 class="description">Who we are?</h3>
         <div class="content">
           <div class="text -left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus elit a dui convallis iaculis
-              ut
-              sit amet enim. Maecenas pretium, justo sed bibendum sollicitudin, tortor urna consectetur ex, et dapibus
-              quam felis
-              vitae leo.Nulla convallis nulla et dolor euismod, sit amet gravida metus feugiat. Suspendisse iaculis vel
-              urna eget fringilla. Quisque metus est, blandit sed magna in, lacinia condimentum dolor. Aenean at sem
-              sagittis urna nec, pulvinar nunc.
-              <br />
+            <span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum cursus elit a dui convallis iaculis
+                ut
+                sit amet enim. Maecenas pretium, justo sed bibendum sollicitudin, tortor urna consectetur ex, et dapibus
+                quam felis
+                vitae leo.Nulla convallis nulla et dolor euismod, sit amet gravida metus feugiat. Suspendisse iaculis
+                vel
+                urna eget fringilla. Quisque metus est, blandit sed magna in, lacinia condimentum dolor. Aenean at sem
+                sagittis urna nec, pulvinar nunc.
+              </p>
               <a href="" class="button">Learn More</a>
-            </p>
+            </span>
           </div>
           <div class="image -right">
             <img src="img/complementos/watch-video.png" alt="Watch Vídeo">
@@ -360,12 +364,12 @@
 
     <section class="partners">
       <div class="companies -container">
-        <img src="./img/complementos/empresa1.png" alt="empresa1">
-        <img src="./img/complementos/empresa2.png" alt="empresa2">
-        <img src="./img/complementos/empresa3.png" alt="empresa3">
-        <img src="./img/complementos/empresa4.png" alt="empresa4">
-        <img src="./img/complementos/empresa5.png" alt="empresa5">
-        <img src="./img/complementos/empresa6.png" alt="empresa6">
+        <img class="company-one" src="./img/complementos/empresa1.png" alt="empresa1">
+        <img class="company-two" src="./img/complementos/empresa2.png" alt="empresa2">
+        <img class="company-three" src="./img/complementos/empresa3.png" alt="empresa3">
+        <img class="company-four" src="./img/complementos/empresa4.png" alt="empresa4">
+        <img class="company-five" src="./img/complementos/empresa5.png" alt="empresa5">
+        <img class="company-six" src="./img/complementos/empresa6.png" alt="empresa6">
       </div>
     </section>
 
@@ -515,26 +519,38 @@
           <img src="./img/icones/share.png" alt="share">
           <h3>Tell about us:</h3>
         </div>
-        <a href="" class="twitter">
-          <img src="./img/icones/twitter.png" alt="twitter">
-        </a>
-        <span>152</span>
-        <a class="linkedin" href="" class="linkedin">
-          <img src="./img/icones/linkedin.png" alt="linkedin">
-        </a>
-        <span>31</span>
-        <a class="facebook" href="">
-          <img src="./img/icones/facebook.png" alt="facebook">
-        </a>
-        <span>165</span>
-        <a class="google-plus" href="">
-          <img src="./img/icones/googleplus.png" alt="googleplus">
-        </a>
-        <span>22</span>
-        <a class="pinterest" href="">
-          <img src="./img/icones/pinterest.png" alt="pinterest">
-        </a>
-        <span>165</span>
+        <div class="media">
+          <div>
+            <a href="" class="twitter">
+              <img src="./img/icones/twitter.png" alt="twitter">
+            </a>
+            <span>152</span>
+          </div>
+          <div>
+            <a class="linkedin" href="" class="linkedin">
+              <img src="./img/icones/linkedin.png" alt="linkedin">
+            </a>
+            <span>31</span>
+          </div>
+          <div>
+            <a class="facebook" href="">
+              <img src="./img/icones/facebook.png" alt="facebook">
+            </a>
+            <span>165</span>
+          </div>
+          <div>
+            <a class="google-plus" href="">
+              <img src="./img/icones/googleplus.png" alt="googleplus">
+            </a>
+            <span>22</span>
+          </div>
+          <div>
+            <a class="pinterest" href="">
+              <img src="./img/icones/pinterest.png" alt="pinterest">
+            </a>
+            <span>165</span>
+          </div>
+        </div>
       </section>
     </div>
 
@@ -598,7 +614,7 @@
           <a href="" class="twitter">
             <img src="./img/icones/twitter.png" alt="twitter">
           </a>
-          <a class="linkedin" href="" class="linkedin">
+          <a class="linkedin -active" href="" class="linkedin">
             <img src="./img/icones/linkedin.png" alt="linkedin">
           </a>
           <a class="facebook" href="">

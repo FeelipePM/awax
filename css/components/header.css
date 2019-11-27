@@ -48,3 +48,7 @@
   border-bottom: 5px solid var(--color-primary);
   color: var(--color-first-gray);
 }
+
+.responsive-menu {
+  display: none;
+}
