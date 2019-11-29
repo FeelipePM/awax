@@ -61,6 +61,11 @@
   margin-top: 20px;
 }
 
+.team .social-media a,
+.footer-area .social-media a {
+  margin-right: 5px;
+}
+
 .social-media a {
   display: inline-flex;
   justify-content: center;

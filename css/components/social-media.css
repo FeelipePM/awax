@@ -1,3 +1,8 @@
+.default.-social {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .default .social-media .twitter {
   background-color: var(--color-light-blue);
 }
@@ -21,7 +26,6 @@
 .default .social-media {
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .default .social-media .media {
