@@ -1,6 +1,10 @@
 # Awax Project
 
-### This project aims to improve my studies on HTML and CSS. The layout is responsive to mobile and tablet.
+### This project aims to improve my studies
+
+- HTML
+- CSS
+- Responsividade
 
 #### Layout is responsive to mobile and tablet.
 
